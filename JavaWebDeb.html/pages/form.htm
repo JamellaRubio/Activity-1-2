@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../css/customestyle.css">
+    <style>
+        .form1{
+            float:left;
+        }
+        .form2{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <h1>College of Information and Computing Sciences</h1>
+            <h3>Bachelor Of Sciences in Information System</h3>
+        </div>
+        <div class="container">
+            <a href="../index.html">Home</a> |
+            <a href="../pages/about.html">About</a> |
+            <a href="../pages/contact.html">Contact us</a> |
+            <a href="../pages/inquiry.html">Inquiry</a> |
+            <a href="../pages/profile.html">Profile</a> |
+            <button id="submit_btn"><a href="../pages/login.html">Login</a></button>
+        </div>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../pages/headings.htm">Heading</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/table.htm">Tables</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/form.htm">Forms</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/img.htm">Images</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/List.htm">List </a>
+                </li>
+            
+            </ul>
+        </nav>
+
+        <article>
+            <h1>HTML FORMS</h1>
+            <div class="form1">
+                <form action="list.html" method="get">
+                    <Label for="">First Name: </Label>
+                    <input type="text" name="fname" id="fname"required> <br>
+                    <Label for="">Last Name: </Label>
+                    <input type="text" name="lname" id="lname"required> <br>
+                    <label for="Date">Date:</label>
+                    <input type="date" name="datenow" id="datenow" required> <br>
+                    <label for="Email">Email:</label>
+                    <input type="email" name="emailadd" id="emailadd" required><br>
+                    <label for="Button">Button:</label>
+                    <input type="button" value="Example"><br>
+                    <label for="Color">Color:</label>
+                    <input type="color" name="colorname" id="colorname" required><br>
+                    <label for="">UploadFile</label>
+                    <input type="file" name="filedata" id="filedata" required><br>
+                    <label for="">Date Time Data </label>
+                    <input type="datetime" name="datatimedata" id="datatimedata" ><br>
+                    <label for="">Password </label>
+                    <input type="password" name="Passworddata" id="Passworddata"><br>
+                    <label for="">Selection </label>
+                    <select name="" id="">
+                          <option value="" disabled selected>--Choose a Fruits </option>
+                          <option value="">apple </option>
+                          <option value="">orange</option>
+                          <option value="">banana</option>
+                          <option value="">kiwi</option>
+                    </select>
+                    <br>
+                    <button disabled="">Disabled Button</button>
+                    <Fieldset>
+                        <input type="radio"id='English'>
+                        <label for="english">English</label>
+                        <input type="radio"id='english'>
+                        <label for="english">Tagalog</label>
+                    </Fieldset>
+                    <br>
+                    <label for="">Data List</label>
+                    <fieldset>
+                        <textarea name="" id=""value="Please input your message"placeholder="Please input your message...."></textarea>
+
+                    </fieldset>
+                    <br>
+                    <input list ="values" name="answer">
+                    <datalist id="values">
+                        <option value="HTML"></option>
+                        <option value="css"></option>
+                        <option value="javascript"></option>
+                    </datalist>
+                    <br> 
+                    <input type="submit" value="Submit">
+                </form>
+                <fieldset>
+                    <legend><b>Caption</b></legend>
+                    <p>This is an example legend format</p> 
+                </fieldset>
+            </div>
+            <br>
+            <div class="form2">
+                <form action="" method="get">
+                <fieldset>
+                    <legend><b>Caption</b></legend>
+                    <label for="">Enter your Name</label>
+                    <input type="text" name="name" id="name"> <br>
+                    <label for="">Enter your Age</label>
+                    <input type="number" name="age" id="age"> <br>
+                    <input type="submit" value="submit">
+                </fieldset>
+                </form>
+            </div>
+            </form>
+        </article>
+    </section>
+    
+    <footer> 
+        <h2>MarSU</h2>
+        <div class="footer-links">
+            <a href="../pages/refund.htm">Refund policy</a>
+            <a href="../pages/terms.htm">Terms of use</a>
+            <a href="../pages/privacy.htm">Privacy policy</a>
+            <a href="../pages/faqs.htm">FAQ's</a>
+            <a href="../pages/affiates.htm">Affiliates</a>
+        </div>
+        <div class="footer-info"> 
+            <p>© 2024 MarSU.  All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
